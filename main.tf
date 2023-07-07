@@ -12,3 +12,7 @@ output "myvpc" {
 output "myvpcid" {
   value= aws_vpc.name.cidr_block
 }
+
+output "myvpcid1" {
+  value= aws_vpc.name.arn
+}
